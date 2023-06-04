@@ -10,6 +10,6 @@ describe('App', () => {
 
   it('should have a greeting as the title', () => {
     const { getByText } = render(<App />);
-    expect(getByText(/Welcome to Invopilot/gi)).toBeTruthy();
+    expect(getByText(/Welcome to invopilot test 1/gi)).toBeTruthy();
   });
 });
