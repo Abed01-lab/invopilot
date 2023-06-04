@@ -3,8 +3,8 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "start": "npm i && npx nx serve backend",
-    "build": ""
+    "start": "node dist/apps/backend/main.js",
+    "build": "nx build backend"
   },
   "private": true,
   "dependencies": {
@@ -54,7 +54,7 @@
     "nx": "16.3.2",
     "prettier": "^2.6.2",
     "ts-jest": "^29.1.0",
-    "ts-node": "10.9.1",
+    "ts-node": "^10.9.1",
     "typescript": "~5.0.2",
     "vite": "^4.3.4",
     "vite-plugin-eslint": "^1.8.1",
