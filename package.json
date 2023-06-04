@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "start": "node main.js"
+    "start": "nx serve backend"
   },
   "private": true,
   "dependencies": {
