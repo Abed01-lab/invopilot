@@ -2,7 +2,9 @@
   "name": "@invopilot/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "start": "node dist/apps/backend/main"
+  },
   "private": true,
   "dependencies": {
     "@swc/helpers": "~0.5.0",
